@@ -26,8 +26,9 @@ git clone  https://github.com/New-Tomorrow/PO.git
 ```
 
 - Depois entre no CMD dentro da pasta com o git clonado e de o comando:
-
+```
 git checkout AtvI
+```
 
 - Depois entre com o Vs code na pasta do projeto e abra o terminal para inserir os comandos:
 
