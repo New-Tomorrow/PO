@@ -19,8 +19,9 @@ Para executar a aplicação, certifique-se de ter instalado o nodeJS em seu comp
 
 - Faça o  clone do repositorio:
 ```
-git clone https://github.com/dsslleagion/Listas_POO.git
+git clone  https://github.com/New-Tomorrow/PO.git
 ```
+
 - Depois entre no CMD dentro da pasta com o git clonado e de o comando:
 ```
 git checkout AtvIII
