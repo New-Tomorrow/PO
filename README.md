@@ -34,11 +34,13 @@ git checkout AtvI
 ```
 npm install
 ```
-## e
+- E  também esse comando
 ```
 npx tsc
 ```
 
 - execute a aplicação pelo seguinte comando:
 
+```
 node out/app/main.js
+```
