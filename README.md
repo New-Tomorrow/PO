@@ -23,7 +23,6 @@ Para executar a aplicação, certifique-se de ter instalado o nodeJS em seu comp
 
 ```
 git clone  https://github.com/New-Tomorrow/PO.git
-
 ```
 
 - Depois entre no CMD dentro da pasta com o git clonado e de o comando:
