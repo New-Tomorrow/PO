@@ -17,31 +17,39 @@ Nome            | GitHub                                                       |
 
 É necessário instalar o MYSQL Workbench.
 
--Após a instalação:
+Após a instalação:
 
-Clique na conexão "Local instance"
-Na aba Server, clique em Data Import
-Em seguida, clique no checkbox Import from Self-Contained File
-importe o arquivo wb_banco2
-Em Default Target Schema, crie um novo schema chamado "wb_banco2".
-Clique na aba "Import Progress", e por fim "Start Import"
-
+- Clique na conexão "Local instance"
+- Na aba Server, clique em Data Import
+- Em seguida, clique no checkbox Import from Self-Contained File
+- importe o arquivo wb_banco
+- Em Default Target Schema, crie um novo schema chamado "wb_banco".
+- Clique na aba "Import Progress", e por fim "Start Import"
 
 Para executar a aplicação, certifique-se de ter instalado o NodeJs em seu computador:
 
  - Faça o clone do repositório:
- 
-git clone 
-
+ ```
+git clone https://github.com/dsslleagion/Listas_POO.git
+```
 Na pasta raiz do projeto, digite:
-
+```
 git checkout AtvV
+```
+- Na pasta Backend/Conexao, no arquivo conexao.js, mude a senha para a mesma senha que você cadastrou no seu Workbench para o usuário root, e em seguida, abra dois terminais dentro do projeto com VScode e execute o seguinte comando para executar:
 
-- Na pasta Backend/Conexao, no arquivo conexao.js, mude a senha para a mesma senha que você cadastrou no seu Workbench para o usuário root, e em seguida, execute o seguinte comando para executar:
-
+- para a pasta front abra um terminal unico
+```
 cd front
+```
+```
 npm start
-cd ..
-cd Backend
-npm start
+```
 
+- para a pasta Backend abra um terminal unico
+```
+cd Backend
+```
+```
+npm start
+```
